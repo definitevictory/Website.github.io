@@ -1,54 +1,102 @@
-   <!DOCTYPE html>
-   <html lang="en" dir="ltr">
-   <head>
-        <!-- used by the key board --> 
-        <meta charset="utf-8">
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <!-- Used by the Keyboard-->
+    <meta charset="utf-8">
 
-        <title>Test</title>
-        <!--Favicon can be changed too. Google this-->
-        <!--see https://www.w3schools.com/html/html_favicon.asp, accessed 20240214-->
+    <title>Test</title>
+    <!-- Tab Favicon can be changed too, Google this-->
+    <!-- See https://www.w3schools.com/howto/howto_html_favicon.asp , accessed 20240214-->
 
-        <!--used by browser or google search -->
-        <meta name="author" content="Dexter Voon">
-        <meta name="description" content="First time on html!">
-        <meta name="keywords" content="Learning, html, boilerplate, starter, new">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-         <!-- Content give value for name or http-equiv attribute, text entry in string or array string -->
-         <!-- meta http-equiv="default-style" content=""--> <!-- content matches css link exactly-->
-         <!-- Other meta attributes to be aware of -->
-         <!-- meta http-equiv="refresh" content="30"-->
-         <!-- Content forces a Internet Request to refresh webpage every "time value in seconds" -->
-         <!-- Use this when refreshes are needed -->
-         <!-- meta http-equiv="content-type" content="text/html; charset=UTF-8" -->
-         <!-- Already specified in the charset above-->
-         <!-- Cyber Security Note about JavaScript in Browsers-->
+    <!-- Used by browser or Google Search-->
+    <meta name="author" content="Dexter Voon">
+    <meta name="description" content="Making a website">
+    <meta name="keywords" content="learning, html, boilerplate, starter, new">
+    <meta name="viewport" content="width=device-width, intial-scale=1.0">
+    <!-- Content give value for name or http-equiv attribute, text entry in string or array string -->
+    <!-- meta http-equiv="default-style" content=""--> <!-- content matches css link exactly-->
+    <!-- Other meta attributes to be aware of -->
+    <!-- meta http-equiv="refresh" content="30"-->
+    <!-- Content forces a Internet Request to refresh webpage every "time value in seconds" -->
+    <!-- Use this when refreshes are needed -->
+    <!-- meta http-equiv="content-type" content="text/html; charset=UTF-8" -->
+    <!-- Already specified in the charset above-->
+    <!-- Cyber Security Note about JavaScript in Browsers-->
 
-         <!--Websites load in a specific order: head, CSS, javacript, then body-->
-         <noscript>Running javascript is not neccessary in this html page. fyi your feature to execute scripts is turned off<noscript>
-   </head>
+    <!-- Websites load in a specific order: head, CSS, javacript, then body-->
 
-   <!-- Start here, BODY Semantic Tags-->
-   <body>
-      <div> This is a Division</div>
-      <header>Header</header>
-      <nav>Nav</nav>
-      <aside>Aside space supports main material</aside>
-      <section>Section</section>
-      <main>Important material</main>
-      <article>Article</article>
-      <footer>Footer</footer>
-  
-   </body>
-   <footer>
-      <blockquote cite="">
-         <!-- Date accessed 20240214-->
-      </blockquote>
-      <p>
-      <strong>"Champions keep playing until they get it right."</strong>
-      <em> - Billie Jean King </em>
-      </p>
-   
-      <p>&copy Dexter Voon, powered by definitevictory in github</p>
-      <!--Other information possible like number of visitors, location, author contact information-->
-   </footer>
-   </html>
+    <style>
+        * {
+            box-sizing: border-box;
+            font-size: 2vw;
+        }
+        div { //border: thin dotted red; }
+
+        header {
+            border: 1px solid green;
+            padding: 15px;
+            font-size: 4vw;
+        }
+
+        nav {
+            width: 25%;
+            float: left;
+            padding: 15px;
+            border: 1px solid rgb(19, 0, 128);
+        }
+
+        main {
+         width: 50%;
+         float: left;
+         padding: 15px;
+         border: 1px solid rgb(19, 0, 128);
+        }
+
+        aside {
+         width: 25%;
+         float: left;
+         padding: 15px;
+         border: 1px solid rgb(19, 0, 128);
+        }
+
+        footer {
+         padding: 15px;
+         border: 1px solid rgb(19, 0, 128);
+        }
+
+        section {
+        }
+
+        article {
+        }
+
+
+    </style>
+
+    <noscript>Running javascript is not neccessary in this html page. fyi your feature to execute scripts is turned off</noscript>
+
+</head>
+
+<!-- Start here, BODY Semantic Tags-->
+<body>
+    <div>This is a Division</div>
+    <header>Header</header>
+    <nav>Navigation</nav>
+    <main>Important Material</main>
+    <aside>Aside Space supports MAIN Material</aside>
+    <section>Section</section>
+    <article>Article, Mostly text</article>
+    <footer>Footer</footer>
+</body>
+<footer>
+    <blockquote cite="">
+        <!-- Date Accessed 20240214-->
+    </blockquote>
+    <p>
+        <strong>"Champions keep playing until they get it right."</strong>
+        <em> - Billie Jean King </em>
+    </p>
+    <p>&copy Dexter Voon, powered by definitevictory in gitHub</p>
+    <!-- Other information possilbe like Number of Visitor, Location, author contract information-->
+</footer>
+</html>
