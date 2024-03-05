@@ -6,3 +6,7 @@
 - [ ] Section: "How to Use"
 - [ ] Article: describes how to use the music player
 - [ ] Footer: Date made?
+
+
+
+# Document Map
