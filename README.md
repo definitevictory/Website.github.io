@@ -8,5 +8,11 @@
 - [ ] Footer: Date made?
 
 
-
+---
 # Document Map
+- [ ] home page
+- [ ] text experimental pagehtml
+- [ ] Viewport.html
+- [ ] MetaData.html
+- [ ] child template.html
+- [ ] Images.html
