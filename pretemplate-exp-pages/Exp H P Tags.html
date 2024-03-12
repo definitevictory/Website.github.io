@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <!-- Used by the Keyboard-->
+    <meta charset="utf-8">
+
+    <title>Text Experimental Page</title>
+    <!-- Tab Favicon can be changed too, Google this-->
+    <!-- See https://www.w3schools.com/howto/howto_html_favicon.asp , accessed 20240214-->
+
+    <!-- Used by browser or Google Search-->
+    <meta name="author" content="Dexter Voon">
+    <meta name="description" content="Making a website">
+    <meta name="keywords" content="learning, html, boilerplate, starter, new">
+    <meta name="viewport" content="width=device-width, intial-scale=1.0">
+    <!-- Content give value for name or http-equiv attribute, text entry in string or array string -->
+    <!-- meta http-equiv="default-style" content=""--> <!-- content matches css link exactly-->
+    <!-- Other meta attributes to be aware of -->
+    <!-- meta http-equiv="refresh" content="30"-->
+    <!-- Content forces a Internet Request to refresh webpage every "time value in seconds" -->
+    <!-- Use this when refreshes are needed -->
+    <!-- meta http-equiv="content-type" content="text/html; charset=UTF-8" -->
+    <!-- Already specified in the charset above-->
+    <!-- Cyber Security Note about JavaScript in Browsers-->
+
+    <!-- Websites load in a specific order: head, CSS, javacript, then body-->
+
+    <style>
+        * {
+            box-sizing: border-box;
+            //font-size: 2vw;
+        }
+        div { border: thin dotted red; }
+
+        .header {
+            border: 1px solid green;
+            padding: 15px;
+            //font-size: 4vw;
+        }
+
+        .nav {
+            width: 25%;
+            float: left;
+            padding: 15px;
+            border: 1px solid rgb(19, 0, 128);
+        }
+
+        .main {
+         width: 50%;
+         float: left;
+         padding: 15px;
+         border: 1px solid rgb(19, 0, 128);
+        }
+
+        .aside {
+         width: 25%;
+         float: right;
+         padding: 15px;
+         border: 1px solid rgb(19, 0, 128);
+        }
+
+        .footer {
+         padding: 15px;
+         border: 1px solid rgb(19, 0, 128);
+        
+        }
+    </style>
+
+    <noscript>Running javascript is not neccessary in this html page. fyi your feature to execute scripts is turned off</noscript>
+
+</head>
+
+<!-- Start here, BODY Semantic Tags-->
+<body>
+    <div>ViewPort Units are OFF</div>
+    <header class="header"> 
+        <h1>Experimental Page header and paragraph tags</h1> 
+        <h3>H3: subtitle text</h3>
+        <h7>H7: does not exist</h7>
+        <p>Paragraph Tag, any writing</p>
+    </header>
+    <nav class="nav"> 
+        <h3>Navigation h tags</h3>
+        <h2>H2: largest h tag</h2>
+        <h4>H4: text</h4>
+        <h5>H5: text</h5>
+        <h6>H6: text</h6>
+        <p>Paragraph Tag</p>
+        <a> hyperlink, text only, in a-tag</a>
+        </nav>
+    <main class="main">
+        <h1>Main H tags, in h1</h1>
+        <h2>H2: largest h tag</h2>
+        <h3>H3: text</h3>
+        <h4>H4: text</h4>
+        <h5>H5: text</h5>
+        <h6>H6: text</h6>
+        <p>Paragraphs can include different types of <sup>big writing </sup>and<sub>small writing</sub></p>
+        <a> Hyperlink, Text only in a tag.</a>
+        <br>
+        <section class="main"> 
+            <h2>Section H-tags, in h2</h2>
+            <h3>H3: SubHeadings usually stop at H3, in h3</h3>
+            <p>H2 is the largest. Put anything in SECTION-tags</p>
+            <a> hyperlink</a>
+            <article class="main">
+                <h2>Article H-Tags, in h2</h2>
+                <h3>SubHeadings usually stop at H3, in h3</h3>
+                <p>Writing Only in P-Tags</p>
+                <a>Hyperlink, text only, in a-tag</a>
+            </article>
+            </section>
+        <article class="main"> 
+            <h2>article H-tags, in h2</h2>
+            <h3>H3: SubHeadings usually stop at H3, in h3</h3>
+            <p>Writing only in P tags</p>
+            <a> hyperlink</a>
+            </article>
+        </main>
+    <aside class="aside"> 
+        <h2>Aside H tags, in h2</h2>
+        <h3>H3: text</h3>
+        <h4>H4: text</h4>
+        <h5>H5: text</h5>
+        <h6>H6: text</h6>
+        <p>Paragraph Tag</p>
+        <a> hyperlink</a>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        </aside>
+    <section class="main"> 
+        <h2>Section H-tags, in h2</h2>
+        <h3>H3: SubHeadings usually stop at H3, in h3</h3>
+        <p>H2 is the largest. Put anything in SECTION-tags</p>
+        <a> hyperlink</a>
+        </section>
+
+    <article class="main"> 
+        <h2>article H-tags, in h2</h2>
+        <h3>H3: SubHeadings usually stop at H3, in h3</h3>
+        <p>Writing only in P tags</p>
+        <a> hyperlink</a>
+        </article>
+    <footer class="footer"> 
+        Footer H tags
+        <h1>H1: text</h1>
+        <h2>H2: text</h2>
+        <h3>H3: text</h3>
+        <h4>H4: text</h4>
+        <h5>H5: text</h5>
+        <h6>H6: text</h6>
+        <h7>H7: text</h7>
+        <p>Paragraph Tag</p>
+        </footer>
+</body>
+<footer>
+    <blockquote cite="">
+        <!-- Date Accessed 20240214-->
+    </blockquote>
+    <p>
+        <strong>"Champions keep playing until they get it right."</strong>
+        <em> - Billie Jean King </em>
+    </p>
+    <p>&copy Dexter Voon, powered by definitevictory in gitHub</p>
+    <!-- Other information possilbe like Number of Visitor, Location, author contract information-->
+</footer>
+</html>
