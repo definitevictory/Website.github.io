@@ -1,18 +1,17 @@
 # Website.github.io
 - [ ] Header : change text to "Downloadable music player!"
 - [ ] Navigation : download link?
-- [ ] Important material: Can only work on Androids
+- [ ] Important material: describes some features
 - [ ] Aside Space: example pictures of music player https://i.ytimg.com/vi/lg5zWJTQWx8/maxresdefault.jpg
-- [ ] Section: "How to Use"
-- [ ] Article: describes how to use the music player
 - [ ] Footer: Date made?
 
 
 ---
 # Document Map
+- [ ] childpage
 - [ ] home page
-- [ ] text experimental pagehtml
-- [ ] Viewport.html
-- [ ] MetaData.html
-- [ ] child template.html
-- [ ] Images.html
+- [ ] Installation
+- [ ] Instructions
+- [ ] Developer page
+- [ ] updates / patchnotes?
+
