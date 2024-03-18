@@ -12,6 +12,6 @@
 - [ ] home page
 - [ ] Installation
 - [ ] Instructions
-- [ ] Developer page put some information in here
-- [ ] updates / patchnotes? maybe add a border to separate each "update"
+- [ ] Developer page
+- [ ] updates / patchnotes?\
 
